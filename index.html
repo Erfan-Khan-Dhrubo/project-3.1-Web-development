@@ -40,6 +40,8 @@
               dark2: "#414040",
               dark7: "#F3F3F3",
               white: "#FFFFFF",
+              dark1: "#111111",
+              dark5: "#CFCFCF",
             },
             fontFamily: {
               poppins: ["Poppins", "serif"],
@@ -49,8 +51,16 @@
         },
       };
     </script>
+    <!-- Icon Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body class="font-poppins text-blue-500 text-base">
+  <body class="font-poppins text-dark3 text-base">
     <!-- Header Section -->
     <header class="lg:w-5/6 w-9/10 mx-auto">
       <!-- Navbar -->
@@ -353,7 +363,7 @@
             suffered alteration in some form, by injected humour.
           </p>
         </div>
-        <div class="flex flex-col-reverse md:flex-row gap-12">
+        <div class="flex flex-col-reverse lg:flex-row gap-12">
           <div class="flex-1 flex flex-col gap-6">
             <div class="collapse collapse-plus bg-base-200 p-4">
               <input type="radio" name="my-accordion-3" checked="checked" />
@@ -518,5 +528,72 @@
         </div>
       </section>
     </main>
+    <footer class="bg-dark1 py-24 text-dark5 pl-8 lg:pl-0">
+      <div class="lg:w-5/6 w-9/10 mx-auto footer justify-between">
+        <nav>
+          <h6 class="pb-8"><img src="images/logo.png" alt="" /></h6>
+          <p>
+            There are many variations of <br />
+            passages of Lorem Ipsum <br />
+            available, but the majority have <br />
+            suffered alteration in some <br />
+            form, by injected humour.
+          </p>
+        </nav>
+        <nav>
+          <h6 class="text-2xl font-extrabold font-garamond text-white pb-8">
+            Usefull Link
+          </h6>
+          <a class="link link-hover py-2">Home</a>
+          <a class="link link-hover py-2">About Us</a>
+          <a class="link link-hover py-2">Cases</a>
+          <a class="link link-hover py-2">Blog</a>
+          <a class="link link-hover py-2">Contact Us</a>
+        </nav>
+        <nav>
+          <h6 class="text-2xl font-extrabold font-garamond text-white pb-8">
+            Contact Now
+          </h6>
+          <p class="link link-hover py-2">
+            555 4th 5t NW, Washington <br />
+            DC 20530, United States
+          </p>
+          <p class="link link-hover py-2">
+            +88 01750 000 000 <br />
+            +88 01750 000 000
+          </p>
+          <p class="link link-hover py-2">
+            info@gmail.com <br />
+            info@gmail.com
+          </p>
+        </nav>
+        <form>
+          <h6 class="text-2xl font-extrabold font-garamond text-white pb-8">
+            Subscribe
+          </h6>
+          <fieldset class="form-control w-80">
+            <p class="mb-6">
+              Subscribe for our latest & <br />
+              Articles. We Won’t Give You <br />
+              Spam Mails
+            </p>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="Email Address"
+                class="input input-bordered join-item"
+              />
+              <button
+                class="btn btn-primary join-item w-18 bg-golden border-golden"
+              >
+                <i
+                  class="fa-solid fa-arrow-right text-white text-2xl transform -rotate-30"
+                ></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
