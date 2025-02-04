@@ -22,3 +22,4 @@ Justice is a responsive web page built using HTML, CSS, Tailwind CSS, and Daisy 
    ```bash
    git clone link
    ```
+   <p align="center"> <img src="./web_pic/photo1.jpg" alt="Image 1" width="45%" /> <img src="./web_pic/photo 1 sm.jpg" alt="Image 2" width="45%" /> </p>
