@@ -30,10 +30,10 @@ Below are some screenshots of the Justice webpage:
   <img src="./web_pic/photo1.jpg" alt="Screenshot 1" />
   <img src="./web_pic/photo 1 sm.jpg" alt="Screenshot 2" width="45%"/>
   <img src="./web_pic/photo2.jpg" alt="Screenshot 3" />
-  <img src="./web_pic/photo 3.jpg" alt="Screenshot 4" />
-  <img src="./web_pic/photo 3 sm.jpg" alt="Screenshot 5" />
+  <img src="./web_pic/photo 3.jpg" alt="Screenshot 4"  />
+  <img src="./web_pic/photo 3 sm.jpg" alt="Screenshot 5" width="45%" />
   <img src="./web_pic/photo 4.jpg" alt="Screenshot 6" />
-  <img src="./web_pic/photo 4 sm.jpg" alt="Screenshot 7" />
+  <img src="./web_pic/photo 4 sm.jpg" alt="Screenshot 7" width="45%" />
   <img src="./web_pic/photo 5.png" alt="Screenshot8" />
   <img src="./web_pic/photo 5 sm.png" alt="Screenshot 9" />
 
