@@ -25,12 +25,12 @@ Justice is a responsive web page built using HTML, CSS, Tailwind CSS, and Daisy 
 
 ## Design for Large Device
 
- <img src="./web pic/laptop.png"/>
+ <img src="./web_pic/laptop.png"/>
 
 ---
 
 # Design for Small Device
 
- <img src="./web pic/phone.png" width="50%"/>
+ <img src="./web_pic/phone.png" width="50%"/>
 
 ---
